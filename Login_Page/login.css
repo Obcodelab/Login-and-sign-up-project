@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/wall2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 1.5px -1.5px 28px 7px rgba(0, 0, 0, 0.75);
+}
+.content h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 35px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.94);
+    display: flex;
+}
+.field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+.space{
+    margin-top: 16px;
+}
+.show{
+    position: absolute;
+    font-size: 13px;
+    right: 13px;
+    color: #222;
+    display: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.forgot-pass{
+    text-align: left;
+    margin: 10px 0;
+}
+.forgot-pass a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.field input[type="submit"]{
+    background: #3498db;
+    border: 1px solid #2691d9;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.field input[type="submit"]:hover{
+    background: #2691d9;
+}
+.signup{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.signup a{
+    color: #3498db;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 452px) {
+    .content{
+        width: 330px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .content{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .content{
+        width: 280px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .content{
+        width: 260px;
+    }
+}
