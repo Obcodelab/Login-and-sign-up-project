@@ -25,6 +25,7 @@ body{
     box-shadow: 1.5px -1.5px 28px 7px rgba(0, 0, 0, 0.25);
 }
 .container .title{
+    color: white;
     font-size: 25px;
     font-weight: 500;
     position: relative;
@@ -43,6 +44,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
+    color: white;
 }
 form .user-details .input-box{
     margin-bottom: 15px;
@@ -69,6 +71,7 @@ form .user-details .input-box{
     border-color: #9b59b6;
 }
 form .gender-details .gender-title{
+    color: white;
     font-size: 20px;
     font-weight: 500;
 }
@@ -81,6 +84,7 @@ form .gender-details .category{
 .gender-details .category label{
     display: flex;
     align-items: center;
+    color: white;
 }
 .gender-details .category .dot{
     height: 18px;
